@@ -51,10 +51,10 @@ BSDTAR_PREBUILT = {
         "https://github.com/aspect-build/bsdtar-prebuilt/releases/download/v3.7.4-3/tar_linux_arm64",
         "105f91ad792fce13030bd249d8f9a14fd7ceaf908e1caeb99685b0b1fac44be2",
     ),
-    "windows_amd64": (
-        "https://github.com/libarchive/libarchive/releases/download/v3.7.4/libarchive-v3.7.4-amd64.zip",
-        "7ced6865d5e22e1dab0c3f3d65094d946ae505ec4e8db026f82c9e1c413f3c59",
-    ),
+    # "windows_amd64": (
+    #     "https://github.com/libarchive/libarchive/releases/download/v3.7.4/libarchive-v3.7.4-amd64.zip",
+    #     "7ced6865d5e22e1dab0c3f3d65094d946ae505ec4e8db026f82c9e1c413f3c59",
+    # ),
 }
 
 def _bsdtar_binary_repo(rctx):
